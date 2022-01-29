@@ -269,7 +269,7 @@ namespace Kred_calc
 		// Поиск шаблонов
 		public void Poisk_ini_files()
 		{
-			file_path_ini_mas = System.IO.Directory.GetFiles(tec_kat + "\\", "*.ini");
+			file_path_ini_mas = System.IO.Directory.GetFiles(tec_kat + "\\ini\\", "*.ini");
 			type_ini_mas = new string[file_path_ini_mas.Length];
 			for (var i = 0; i < file_path_ini_mas.Length; i++)
 			{
